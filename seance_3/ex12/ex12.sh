@@ -1,5 +1,11 @@
 #!/bin/sh
 
+if [$# -ne 0 ]
+then
+	echo "Usage: $0" >&2
+	exit 1
+fi
+
 > f_francais.txt 
 #cree ou vider le fichier de sortie
 
@@ -15,3 +21,5 @@ do
 	done
 	echo "$traduit" >>f_francais.txt
 done < f_anglais.txt
+
+exit 0
