@@ -1,0 +1,11 @@
+1. two grep command with metacharacters
+Print the name of the files for which the proprietor has the right of execution.
+2. Write a script, which renames the files by adding chosen extension to their previous name.
+./Script.sh extension file1  [files]
+3. Write a script which reads the names of the files in the given directory, prints the number of characters on each line and prints the overall number of characters in each script.
+./Script.sh REP
+4. Write a script which traverses through all directories of the given directory
+./Script.sh REP
+
+
+All for shell scripting
